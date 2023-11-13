@@ -6,6 +6,7 @@ metadata:
 data:
   SPRING_MAIN_CLOUD_PLATFORM: 'kubernetes'
   SPRING_PROFILES_ACTIVE: 'k8s'
+  SPRING_DATA_REDIS_URL: 'redis://:Test1234@redis.database:6379'
   SPRING_CLOUD_CONFIG_URI: 'http://config-centralized.core:8888/'
   MANAGEMENT_ZIPKIN_TRACING_ENDPOINT: 'http://zipkin.core:9411/api/v2/spans'
   EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: 'http://eureka.core:8080/eureka'
