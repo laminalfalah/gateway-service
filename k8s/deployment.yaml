@@ -20,6 +20,8 @@ metadata:
     k8s-app: gateway
 spec:
   replicas: 1
+  strategy:
+    type: RollingUpdate
   selector:
     matchLabels:
       k8s-app: gateway
